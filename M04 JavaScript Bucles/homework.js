@@ -92,9 +92,9 @@ function colors(color) {
 
       default:
          return `Color not found`
-   }  
+   }
 
-}     
+}
 
 function esDiezOCinco(num) {
    // Retornar true si "num" es 10 o 5.

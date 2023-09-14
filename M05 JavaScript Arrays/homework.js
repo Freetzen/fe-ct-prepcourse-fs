@@ -24,7 +24,7 @@ function incrementarPorUno(array) {
   // Tu código:
 
   let arrayAumentado = array.map((num) => {
-    return num + 1;
+     return num + 1;
   });
 
   return arrayAumentado;
@@ -117,16 +117,9 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos retorna 0. Si se pasa un argumento, simplemente retórnalo.
   // [PISTA]: "arguments" es un arreglo.
   // Tu código:
-  let total = 1;
 
-  if (arguments.length === 0) {
-    return 0;
-  }
-
-  for (i = 0; i < arguments.length; i++) {
-    total = arguments[i] * total;
-  }
-  return total;
+  
+  
 }
 
 function cuentoElementos(array) {
