@@ -68,6 +68,7 @@ function eliminarPropiedad(objeto, propiedad) {
   return objeto;
 }
 
+
 function tieneEmail(objetoUsuario) {
   // Verifica si el "objetoUsuario", en su propiedad "email", posee un valor definido.
   // En ese caso retornar true. Caso contrario, false.
